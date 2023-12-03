@@ -1,0 +1,6 @@
+@SRP.Api_HostAddress = http://localhost:5116
+
+GET {{SRP.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
