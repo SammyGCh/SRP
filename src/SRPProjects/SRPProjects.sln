@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP.Api", "SRP.Api\SRP.Api.csproj", "{5981A906-BB9B-41B9-A0B1-034E42693DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Api", "SRP.Api\SRP.Api.csproj", "{5981A906-BB9B-41B9-A0B1-034E42693DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP.Web", "SRP.Web\SRP.Web\SRP.Web.csproj", "{C129A1FF-E456-4612-ABDB-B0FFB63A2BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Web", "SRP.Web\SRP.Web\SRP.Web.csproj", "{C129A1FF-E456-4612-ABDB-B0FFB63A2BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP.Web.Client", "SRP.Web\SRP.Web.Client\SRP.Web.Client.csproj", "{2D7470D1-D6EB-4683-B33A-811CC1D1085F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Web.Client", "SRP.Web\SRP.Web.Client\SRP.Web.Client.csproj", "{2D7470D1-D6EB-4683-B33A-811CC1D1085F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP.Aspire.AppHost", "SRP.Aspire\SRP.Aspire.AppHost\SRP.Aspire.AppHost.csproj", "{43E5AC7E-6FA0-48B8-B6CF-9B9FECC07BE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRP.Aspire.ServiceDefaults", "SRP.Aspire\SRP.Aspire.ServiceDefaults\SRP.Aspire.ServiceDefaults.csproj", "{C740737D-9ABB-4A4E-BDD6-ADF920490EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2D7470D1-D6EB-4683-B33A-811CC1D1085F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D7470D1-D6EB-4683-B33A-811CC1D1085F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D7470D1-D6EB-4683-B33A-811CC1D1085F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E5AC7E-6FA0-48B8-B6CF-9B9FECC07BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E5AC7E-6FA0-48B8-B6CF-9B9FECC07BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E5AC7E-6FA0-48B8-B6CF-9B9FECC07BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E5AC7E-6FA0-48B8-B6CF-9B9FECC07BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C740737D-9ABB-4A4E-BDD6-ADF920490EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C740737D-9ABB-4A4E-BDD6-ADF920490EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C740737D-9ABB-4A4E-BDD6-ADF920490EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C740737D-9ABB-4A4E-BDD6-ADF920490EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,4 +12,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SRP.Aspire\SRP.Aspire.ServiceDefaults\SRP.Aspire.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>
