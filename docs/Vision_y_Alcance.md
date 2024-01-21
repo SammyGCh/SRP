@@ -31,7 +31,11 @@
 
 # 1. Requerimientos de negocio
 ## 1.1 Antecedentes
-Esta sección resume la justificación del nuevo producto. Proporcionar una descripción general de la historia o situación que lleva al reconocimiento de que este producto debe construirse.
+Dentro de las festividades de una ciudad de México que se realiza cada año, se organizan diferentes eventos culturales. Entre ellos, se lleva a cabo un evento de música y poesía tradicional de la región, el cual tiene una duración de tres días consecutivos.
+
+Para que esto suceda, la organización del evento se encarga de publicar, vía redes sociales, una convocatoria donde los grupos músicales o poetas, pueden solicitar su participación. Los organizadores reciben las solicitudes mediante correo electrónico o por una aplicación de chat. Una vez que llega la fecha de cierre de la convocatoria, los organizadores se encargan de generar el programa de participación. Después, se les solicita a los participantes (en los medios mencionados anteriormente) que confirmen su participación en la fecha y horario asignado. Finalmente, ya que se hayan realizado, si fue necesario, los ajustes al programa, se publica vía redes sociales y se lleva a cabo.
+
+Actualmente, la información de las solicitudes se vacía manualmente a un archivo de hoja de cálculo, el programa del evento también es realizado de forma manual y la comunicación entre los participantes y organizadores no es totalmente efectiva. Es por eso que se ve la necesidad de automatizar los procesos mediante un sitio web, que permita la gestión de toda la información de ambas partes.
 
 ## 1.2 Oportunidades de negocio
 Describir la oportunidad de mercado que existe o el problema de negocio que se está resolviendo. Describa el mercado en el que competirá un producto comercial o el entorno en el que se utilizará un sistema de información. Esto puede incluir una breve evaluación comparativa de los productos existentes y las posibles soluciones, indicando por qué el producto propuesto es atractivo. Identificar los problemas que actualmente no se pueden resolver sin el producto y cómo el producto encaja con las tendencias del mercado o las direcciones estratégicas corporativas.
